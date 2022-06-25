@@ -8,6 +8,7 @@
 
 ## Technology Stack
 - Javascript
+- Typescript
 
 ## Development Prerequisites
 - VSC

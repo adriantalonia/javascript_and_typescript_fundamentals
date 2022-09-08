@@ -1,9 +1,10 @@
-(function () {
-    var hero = "Flash";
+"use strict";
+(() => {
+    const hero = "Flash";
     function returnName() {
         return hero;
     }
-    var activateSignal = function () {
+    const activateSignal = () => {
         return 'Signal activated';
     };
     console.log(typeof activateSignal);

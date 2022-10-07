@@ -7,7 +7,11 @@
     };
     flash = {
         name: "another name",
-        age: 60,
-        power: ["strong"]
+        //age: 60,
+        power: ["strong"],
+        getName() {
+            return this.name;
+        },
     };
+    console.log(flash);
 })();

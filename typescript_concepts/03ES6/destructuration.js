@@ -15,7 +15,7 @@ var __rest = (this && this.__rest) || function (s, e) {
         nick: "Samuel L. Jackson",
         ironman: "Robert Downey Jr.",
         vision: "Paul Bettany",
-        power: 123123
+        power: 123123,
     };
     const { power, vision } = avengers;
     console.log(power.toFixed(2), vision.toUpperCase());
@@ -23,4 +23,10 @@ var __rest = (this && this.__rest) || function (s, e) {
         var { ironman } = _a, resto = __rest(_a, ["ironman"]);
         console.log(ironman, resto);
     };
+    //  const avengerArr: string[] = ["Cap. America", "Ironman", "Hulk"];
+    const avengerArr = ["Cap. America", true, 150.15];
+    //const [capitan, ironman, nom] = avengerArr;
+    //console.log({ ironman, capitan });
+    const [capitan, flag, value] = avengerArr;
+    console.log({ capitan, flag, value });
 })();
